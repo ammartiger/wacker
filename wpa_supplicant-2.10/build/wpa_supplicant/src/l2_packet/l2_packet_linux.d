@@ -1,0 +1,12 @@
+/home/kali/wacker/wpa_supplicant-2.10/build/wpa_supplicant/src/l2_packet/l2_packet_linux.o: \
+ ../src/l2_packet/l2_packet_linux.c \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/includes.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/build_config.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/common.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/os.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/wpa_debug.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/wpabuf.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/eloop.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/crypto/sha1.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/crypto/crypto.h \
+ ../src/l2_packet/l2_packet.h
