@@ -1,27 +1,31 @@
-# Bruteforcing WPA3 with Wacker (Fork)
+# Wacker - WPA3 Dictionary Attack Tool (Fork)
 
 **This is a fork** of the original [blunderbuss-wctf/wacker](https://github.com/blunderbuss-wctf/wacker) repository.  
-This version includes a pre-compiled `wpa_supplicant` binary (v2.10 with WPA3/SAE support and the necessary patch applied) so you don't have to build it from source yourself.
+This version includes a **pre-compiled and patched `wpa_supplicant` binary** (version 2.10 with WPA3/SAE support, control interface enabled, and the custom patch already applied) so you don't need to compile it from source yourself.
 
-> **⚠️ Important**  
-> This tool is for **authorized security testing only** — on networks you own or have explicit written permission to test.  
-> Unauthorized use may violate laws in your country.
+> **⚠️ LEGAL & ETHICAL WARNING**  
+> This tool is intended **exclusively for authorized security testing** — only on networks you own or have **explicit written permission** to test.  
+> Unauthorized use of this tool against any network is illegal and may result in severe legal consequences.  
+> Use responsibly.
 
-## What is Wacker?
+Wacker is a tool designed to perform dictionary / brute-force attacks against WPA3-Personal networks using the Simultaneous Authentication of Equals (SAE) handshake.  
+It leverages weaknesses in real-world WPA3 deployments (especially when weak or common passwords are used) to attempt offline password recovery.
 
-Wacker is a WPA3 dictionary / brute-force attack tool that exploits the fact that WPA3's SAE (Simultaneous Authentication of Equals) handshake is still vulnerable to offline dictionary attacks in many real-world deployments — especially when weak passwords are used.
+### Features of this Fork
 
-## Setup Instructions
+- Pre-built `wpa_supplicant` binary included (no need to compile)  
+- Patch already applied for improved SAE retry behavior and control interface status detection  
+- Ready-to-run on Kali Linux with compatible Wi-Fi adapters
 
-### Clone this fork and give right permissions
+### Installation & Setup
 
-```bash
-git clone https://github.com/ammartiger/wacker.git
-cd wacker
+Clone this repository and make the script executable
 
-```bash
-chmod +x wacker.py
-chmod +x wpa_supplicant-2.10/wpa_supplicant/wpa_supplicant
+   ```bash
+   git clone https://github.com/ammartiger/wacker.git
+   cd wacker
+   chmod +x wacker.py
+   chmod +x wpa_supplicant-2.10/wpa_supplicant/wpa_supplicant
 
 
 # Overview
