@@ -1,3 +1,29 @@
+# Bruteforcing WPA3 with Wacker (Fork)
+
+**This is a fork** of the original [blunderbuss-wctf/wacker](https://github.com/blunderbuss-wctf/wacker) repository.  
+This version includes a pre-compiled `wpa_supplicant` binary (v2.10 with WPA3/SAE support and the necessary patch applied) so you don't have to build it from source yourself.
+
+> **⚠️ Important**  
+> This tool is for **authorized security testing only** — on networks you own or have explicit written permission to test.  
+> Unauthorized use may violate laws in your country.
+
+## What is Wacker?
+
+Wacker is a WPA3 dictionary / brute-force attack tool that exploits the fact that WPA3's SAE (Simultaneous Authentication of Equals) handshake is still vulnerable to offline dictionary attacks in many real-world deployments — especially when weak passwords are used.
+
+## Setup Instructions
+
+### Clone this fork and give right permissions
+
+```bash
+git clone https://github.com/ammartiger/wacker.git
+cd wacker
+
+```bash
+chmod +x wacker.py
+chmod +x wpa_supplicant-2.10/wpa_supplicant/wpa_supplicant
+
+
 # Overview
 A set of scripts to help perform an online dictionary attack against a WPA3 access point. Wacker leverages the wpa_supplicant control interface to control the operations of the supplicant daemon and to get status information and event notifications ultimately helping speedup connection attempts during brute force attempts.
 
