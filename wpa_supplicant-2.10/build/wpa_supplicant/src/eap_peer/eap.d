@@ -1,0 +1,25 @@
+/home/kali/wacker/wpa_supplicant-2.10/build/wpa_supplicant/src/eap_peer/eap.o: \
+ ../src/eap_peer/eap.c \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/includes.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/build_config.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/common.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/os.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/wpa_debug.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/wpabuf.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/pcsc_funcs.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/state_machine.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/ext_password.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/crypto/crypto.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/crypto/tls.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/crypto/sha256.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/common/wpa_ctrl.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/eap_common/eap_wsc_common.h \
+ ../src/eap_peer/eap_i.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/wpabuf.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/list.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/eap_peer/eap.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/common/defs.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/eap_common/eap_defs.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/eap_peer/eap_methods.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/eap_common/eap_common.h \
+ ../src/eap_peer/eap_config.h

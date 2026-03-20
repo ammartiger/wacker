@@ -1,0 +1,9 @@
+/home/kali/wacker/wpa_supplicant-2.10/build/wpa_supplicant/src/crypto/aes-ctr.o: \
+ ../src/crypto/aes-ctr.c \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/includes.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/build_config.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/common.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/os.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/wpa_debug.h \
+ /home/kali/wacker/wpa_supplicant-2.10/src/utils/wpabuf.h \
+ ../src/crypto/aes.h ../src/crypto/aes_wrap.h
